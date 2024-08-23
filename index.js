@@ -5,9 +5,6 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3000 ;
 
-//database credentials
-//
-//
 
 //database connection
 console.log(process.env.DB_USER);
